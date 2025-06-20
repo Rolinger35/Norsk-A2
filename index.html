@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz på norsk 🇳🇴</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; text-align: center; }
+    img { max-width: 200px; margin: 20px auto; }
+    .question { font-size: 1.5em; margin: 20px 0; }
+    .options button {
+      display: block;
+      margin: 10px auto;
+      padding: 10px 20px;
+      font-size: 1em;
+    }
+    .feedback { font-size: 1.2em; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>🇳🇴 Norsk Quiz – A2 nivå</h1>
+  <div id="quiz">
+    <div class="question" id="question"></div>
+    <img id="image" style="display:none;" />
+    <div class="options" id="options"></div>
+    <div class="feedback" id="feedback"></div>
+  </div>
+  <script src="questions.js"></script>
+  <script src="quiz.js"></script>
+</body>
+</html>
